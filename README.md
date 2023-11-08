@@ -5,33 +5,6 @@ This is a Huffman Encoder/Decoder implemented in Rust for learning purposes. Huf
 
 ![Huffman Tree](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Huffman_tree_2.svg/250px-Huffman_tree_2.svg.png)
 
-How to Use
-----------
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/huffman-encoder-decoder-rust.git
-   cd huffman-encoder-decoder-rust
-   ```
-
-2. Build the executable:
-   ```bash
-   cargo build --release
-   ```
-
-3. Encode a text file:
-   ```bash
-   ./target/release/huffman-encoder encode input.txt encoded.bin
-   ```
-
-4. Decode the encoded file:
-   ```bash
-   ./target/release/huffman-encoder decode encoded.bin decoded.txt
-   ```
-
-For example, you can use "les_miserables.txt" as input.txt and "encoded.bin" as the encoded file.
-
-⚠️ This is not a production tool. It's intended for educational purposes and to demonstrate the Huffman coding algorithm in Rust.
 
 About Huffman Coding
 --------------------
